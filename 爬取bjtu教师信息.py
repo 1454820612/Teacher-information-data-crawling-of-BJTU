@@ -16,17 +16,3 @@ for id in range(10000,20000):
         f.write(A)
         print(id)
         time.sleep(1)
-
-
-
-'''
-for i in range(9999):
-    i+=1
-    
-    url='https://train.hao86.com/G{0}/'.format(str(i))
-    print(url)
-    html = requests.get(url)
-    html.encoding = 'utf-8'
-    A=html.text
-    time.sleep(60/pinlv)
-    '''
